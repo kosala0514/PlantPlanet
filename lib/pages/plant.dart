@@ -129,9 +129,10 @@ class _PlantState extends State<Plant> {
                                 color: widget.warn == "Warning"
                               ? Color.fromARGB(255, 159, 121, 9)
                               : Colors.white,
-                                size: 46,
+                                size: 36,
                               ),
                               ),
+                              SizedBox(height: 10,),
                               Text("Every 3 weeks",style: TextStyle(color: Colors.white),)
                             ],
                           ),
@@ -151,8 +152,9 @@ class _PlantState extends State<Plant> {
                                 color: widget.warn == "Warning"
                               ? Color.fromARGB(255, 159, 121, 9)
                               : Colors.white,
-                                size: 46,
+                                size: 36,
                               ),),
+                              SizedBox(height: 10,),
                               Text("Natural Light", style: TextStyle(color: Colors.white,),)
                             ],
                           ),
@@ -178,8 +180,9 @@ class _PlantState extends State<Plant> {
                                 color: widget.warn == "Warning"
                               ? Color.fromARGB(255, 159, 121, 9)
                               : Colors.white,
-                                size: 46,
+                                size: 36,
                               ),),
+                              SizedBox(height: 10,),
                               Text("Minimum 7°C", style: TextStyle(color: Colors.white),)
                             ],
                           ),
@@ -200,8 +203,9 @@ class _PlantState extends State<Plant> {
                                 color:  widget.warn == "Warning"
                               ? Color.fromARGB(255, 159, 121, 9)
                               : Colors.white,
-                                size: 46,
+                                size:36,
                               ),),
+                              SizedBox(height: 10,),
                               Text("Humidity 84%", style: TextStyle(color: Colors.white),)
                             ],
                           )
